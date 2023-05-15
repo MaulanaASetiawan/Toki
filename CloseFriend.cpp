@@ -7,7 +7,7 @@ int f(int a, int b, int c, int d, int e){
 
 int main()
 {
-    int n, e, t, min = 1000, mx = 0, x[10001], y[10001];
+    int n, e, t, min = 100000001, mx = 0, x[10001], y[10001];
     cin >> n; cin >> e;
     for (int  i = 0; i < n; i++){
         cin >> x[i] >> y[i];
